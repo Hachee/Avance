@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC217FA4192EB58E00988C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC217FA3192EB58E00988C78 /* Foundation.framework */; };
+		CC217FA6192EB58E00988C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC217FA5192EB58E00988C78 /* CoreGraphics.framework */; };
+		CC217FA8192EB58E00988C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC217FA7192EB58E00988C78 /* UIKit.framework */; };
+		CC217FAE192EB58E00988C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC217FAC192EB58E00988C78 /* InfoPlist.strings */; };
+		CC217FB0192EB58E00988C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC217FAF192EB58E00988C78 /* main.m */; };
+		CC217FB4192EB58E00988C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC217FB3192EB58E00988C78 /* AppDelegate.m */; };
+		CC217FB7192EB58E00988C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC217FB5192EB58E00988C78 /* Main.storyboard */; };
+		CC217FBA192EB58E00988C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC217FB9192EB58E00988C78 /* ViewController.m */; };
+		CC217FBC192EB58E00988C78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC217FBB192EB58E00988C78 /* Images.xcassets */; };
+		CC217FC3192EB58E00988C78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC217FC2192EB58E00988C78 /* XCTest.framework */; };
+		CC217FC4192EB58E00988C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC217FA3192EB58E00988C78 /* Foundation.framework */; };
+		CC217FC5192EB58E00988C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC217FA7192EB58E00988C78 /* UIKit.framework */; };
+		CC217FCD192EB58E00988C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC217FCB192EB58E00988C78 /* InfoPlist.strings */; };
+		CC217FCF192EB58E00988C78 /* World_Cup_2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC217FCE192EB58E00988C78 /* World_Cup_2014Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC217FC6192EB58E00988C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC217F98192EB58E00988C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC217F9F192EB58E00988C78;
+			remoteInfo = "World Cup 2014";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC217FA0192EB58E00988C78 /* World Cup 2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Cup 2014.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC217FA3192EB58E00988C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC217FA5192EB58E00988C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC217FA7192EB58E00988C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC217FAB192EB58E00988C78 /* World Cup 2014-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Cup 2014-Info.plist"; sourceTree = "<group>"; };
+		CC217FAD192EB58E00988C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC217FAF192EB58E00988C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC217FB1192EB58E00988C78 /* World Cup 2014-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Cup 2014-Prefix.pch"; sourceTree = "<group>"; };
+		CC217FB2192EB58E00988C78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC217FB3192EB58E00988C78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC217FB6192EB58E00988C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC217FB8192EB58E00988C78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC217FB9192EB58E00988C78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC217FBB192EB58E00988C78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC217FC1192EB58E00988C78 /* World Cup 2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World Cup 2014Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC217FC2192EB58E00988C78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC217FCA192EB58E00988C78 /* World Cup 2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Cup 2014Tests-Info.plist"; sourceTree = "<group>"; };
+		CC217FCC192EB58E00988C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC217FCE192EB58E00988C78 /* World_Cup_2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_Cup_2014Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC217F9D192EB58E00988C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC217FA6192EB58E00988C78 /* CoreGraphics.framework in Frameworks */,
+				CC217FA8192EB58E00988C78 /* UIKit.framework in Frameworks */,
+				CC217FA4192EB58E00988C78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC217FBE192EB58E00988C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC217FC3192EB58E00988C78 /* XCTest.framework in Frameworks */,
+				CC217FC5192EB58E00988C78 /* UIKit.framework in Frameworks */,
+				CC217FC4192EB58E00988C78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC217F97192EB58E00988C78 = {
+			isa = PBXGroup;
+			children = (
+				CC217FA9192EB58E00988C78 /* World Cup 2014 */,
+				CC217FC8192EB58E00988C78 /* World Cup 2014Tests */,
+				CC217FA2192EB58E00988C78 /* Frameworks */,
+				CC217FA1192EB58E00988C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC217FA1192EB58E00988C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC217FA0192EB58E00988C78 /* World Cup 2014.app */,
+				CC217FC1192EB58E00988C78 /* World Cup 2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC217FA2192EB58E00988C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC217FA3192EB58E00988C78 /* Foundation.framework */,
+				CC217FA5192EB58E00988C78 /* CoreGraphics.framework */,
+				CC217FA7192EB58E00988C78 /* UIKit.framework */,
+				CC217FC2192EB58E00988C78 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC217FA9192EB58E00988C78 /* World Cup 2014 */ = {
+			isa = PBXGroup;
+			children = (
+				CC217FB2192EB58E00988C78 /* AppDelegate.h */,
+				CC217FB3192EB58E00988C78 /* AppDelegate.m */,
+				CC217FB5192EB58E00988C78 /* Main.storyboard */,
+				CC217FB8192EB58E00988C78 /* ViewController.h */,
+				CC217FB9192EB58E00988C78 /* ViewController.m */,
+				CC217FBB192EB58E00988C78 /* Images.xcassets */,
+				CC217FAA192EB58E00988C78 /* Supporting Files */,
+			);
+			path = "World Cup 2014";
+			sourceTree = "<group>";
+		};
+		CC217FAA192EB58E00988C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC217FAB192EB58E00988C78 /* World Cup 2014-Info.plist */,
+				CC217FAC192EB58E00988C78 /* InfoPlist.strings */,
+				CC217FAF192EB58E00988C78 /* main.m */,
+				CC217FB1192EB58E00988C78 /* World Cup 2014-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC217FC8192EB58E00988C78 /* World Cup 2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC217FCE192EB58E00988C78 /* World_Cup_2014Tests.m */,
+				CC217FC9192EB58E00988C78 /* Supporting Files */,
+			);
+			path = "World Cup 2014Tests";
+			sourceTree = "<group>";
+		};
+		CC217FC9192EB58E00988C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC217FCA192EB58E00988C78 /* World Cup 2014Tests-Info.plist */,
+				CC217FCB192EB58E00988C78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC217F9F192EB58E00988C78 /* World Cup 2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC217FD2192EB58F00988C78 /* Build configuration list for PBXNativeTarget "World Cup 2014" */;
+			buildPhases = (
+				CC217F9C192EB58E00988C78 /* Sources */,
+				CC217F9D192EB58E00988C78 /* Frameworks */,
+				CC217F9E192EB58E00988C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Cup 2014";
+			productName = "World Cup 2014";
+			productReference = CC217FA0192EB58E00988C78 /* World Cup 2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC217FC0192EB58E00988C78 /* World Cup 2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC217FD5192EB58F00988C78 /* Build configuration list for PBXNativeTarget "World Cup 2014Tests" */;
+			buildPhases = (
+				CC217FBD192EB58E00988C78 /* Sources */,
+				CC217FBE192EB58E00988C78 /* Frameworks */,
+				CC217FBF192EB58E00988C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC217FC7192EB58E00988C78 /* PBXTargetDependency */,
+			);
+			name = "World Cup 2014Tests";
+			productName = "World Cup 2014Tests";
+			productReference = CC217FC1192EB58E00988C78 /* World Cup 2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC217F98192EB58E00988C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hache Silva";
+				TargetAttributes = {
+					CC217FC0192EB58E00988C78 = {
+						TestTargetID = CC217F9F192EB58E00988C78;
+					};
+				};
+			};
+			buildConfigurationList = CC217F9B192EB58E00988C78 /* Build configuration list for PBXProject "World Cup 2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC217F97192EB58E00988C78;
+			productRefGroup = CC217FA1192EB58E00988C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC217F9F192EB58E00988C78 /* World Cup 2014 */,
+				CC217FC0192EB58E00988C78 /* World Cup 2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC217F9E192EB58E00988C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC217FBC192EB58E00988C78 /* Images.xcassets in Resources */,
+				CC217FAE192EB58E00988C78 /* InfoPlist.strings in Resources */,
+				CC217FB7192EB58E00988C78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC217FBF192EB58E00988C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC217FCD192EB58E00988C78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC217F9C192EB58E00988C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC217FBA192EB58E00988C78 /* ViewController.m in Sources */,
+				CC217FB4192EB58E00988C78 /* AppDelegate.m in Sources */,
+				CC217FB0192EB58E00988C78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC217FBD192EB58E00988C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC217FCF192EB58E00988C78 /* World_Cup_2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC217FC7192EB58E00988C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC217F9F192EB58E00988C78 /* World Cup 2014 */;
+			targetProxy = CC217FC6192EB58E00988C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC217FAC192EB58E00988C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC217FAD192EB58E00988C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC217FB5192EB58E00988C78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC217FB6192EB58E00988C78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC217FCB192EB58E00988C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC217FCC192EB58E00988C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC217FD0192EB58F00988C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC217FD1192EB58F00988C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC217FD3192EB58F00988C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Cup 2014/World Cup 2014-Prefix.pch";
+				INFOPLIST_FILE = "World Cup 2014/World Cup 2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC217FD4192EB58F00988C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Cup 2014/World Cup 2014-Prefix.pch";
+				INFOPLIST_FILE = "World Cup 2014/World Cup 2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC217FD6192EB58F00988C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Cup 2014.app/World Cup 2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Cup 2014/World Cup 2014-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World Cup 2014Tests/World Cup 2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC217FD7192EB58F00988C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Cup 2014.app/World Cup 2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Cup 2014/World Cup 2014-Prefix.pch";
+				INFOPLIST_FILE = "World Cup 2014Tests/World Cup 2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC217F9B192EB58E00988C78 /* Build configuration list for PBXProject "World Cup 2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC217FD0192EB58F00988C78 /* Debug */,
+				CC217FD1192EB58F00988C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC217FD2192EB58F00988C78 /* Build configuration list for PBXNativeTarget "World Cup 2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC217FD3192EB58F00988C78 /* Debug */,
+				CC217FD4192EB58F00988C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC217FD5192EB58F00988C78 /* Build configuration list for PBXNativeTarget "World Cup 2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC217FD6192EB58F00988C78 /* Debug */,
+				CC217FD7192EB58F00988C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC217F98192EB58E00988C78 /* Project object */;
+}
